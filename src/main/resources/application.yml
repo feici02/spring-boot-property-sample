@@ -1,2 +1,7 @@
 greeting:
   message: "Hello"
+
+welcome:
+  message: Hello
+  name: Harry
+  line: ${welcome.message}, ${welcome.name}!
